@@ -12,9 +12,9 @@ There are many free Diceware like tools and apps out there, but I really want to
 * I'd like to verify that it's not doing anything malicious like making network connections.
 * I'd like to verify it's not doing anything dumb like [exhibiting modulus bias](http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator), or using a non-cryptographic number generator.
 
-Finally, I'd like it to run without having to install any dependencies on my machine.
-
 In particular [1Password](https://1password.com/) has a Diceware like implementation, but I dislike it because it uses a larger word list which means more of the words fall outside my vocabulary. This increases the effective entropy for the same number of words, but makes them difficult to spell, type and, remember. Again, not the tradeoff I would make.
+
+Finally, I'd like it to run without having to install any dependencies on my machine.
 
 ## Implementation
 Words in the original [Diceware](http://world.std.com/~reinhold/diceware.html) list have an average length of 4.2 characters, this list has an average of 4.8. The tradeoff is that this list contains only alphanumeric characters, and I've also removed common swear
