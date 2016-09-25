@@ -6,7 +6,7 @@ I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the tra
 * Many of the words are not alphanumeric. These are harder to type and remember. I believe this is done to shorten the average word length, but it's just not the tradeoff I'd make.
 * There are obvious swear words. I don't care about them for my personal use, but if you're using this to create temporary passwords to share with others it can make things awkward.
 * Rolling physical dice takes longer than I would like.
-* There is a suggested minimum character count of 17, but counting the characters every time is easy to forget.
+* There is a suggested minimum character count of 17, but it's easy to forget to check this.
 
 There are many free Diceware like tools and apps out there, but I really want to be able to audit the source because:
 * I'd like to verify that it's not doing anything malicious like making network connections.
