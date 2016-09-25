@@ -1,4 +1,4 @@
-# Passphrase
+# Powershell Passphrase
 Generate Diceware inspired passphrases using Powershell
 
 ## Motivation
