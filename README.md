@@ -9,8 +9,9 @@ I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the tra
 * There is a suggested minimum character count of 17, but counting the characters every time is easy to forget.
 
 There are many free Diceware like tools and apps out there, but I really want to be able to audit the source because:
-* I'd like to verify that it's not doing anything malicious like making network connections
+* I'd like to verify that it's not doing anything malicious like making network connections.
 * I'd like to verify it's not doing anything dumb like [exhibiting modulus bias](http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator) or using a non-cryptographic number generator.
+* I'd like it to run without having to install anything dependencies on my machine.
 
 ## Implementation
 Words in the original [Diceware](http://world.std.com/~reinhold/diceware.html) list have an average length of 4.2 characters, this list has an average of 4.8. The tradeoff is that this list contains only alphanumeric characters, and I've also removed common swear
