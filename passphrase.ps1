@@ -6074,7 +6074,7 @@ $wordList = @(
 "spells",
 "camels",
 "myriad",
-"fuck",
+"capped",
 "jon",
 "zoo",
 "yahweh",
