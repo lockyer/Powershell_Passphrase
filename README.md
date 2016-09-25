@@ -10,7 +10,7 @@ I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the tra
 
 There are many free Diceware like tools and apps out there, but I really want to be able to audit the source because:
 * I'd like to verify that it's not doing anything malicious like making network connections.
-* I'd like to verify it's not doing anything dumb like [exhibiting modulus bias](http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator), or using a non-cryptographic number generator.
+* I'd like to verify it's not doing anything dumb, like [exhibiting modulus bias](http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator), or using a non-cryptographic number generator.
 
 In particular [1Password](https://1password.com/) has a Diceware like implementation, but I dislike it because it uses a larger word list which means more of the words fall outside my vocabulary. This increases the effective entropy for the same number of words, but makes them difficult to spell, type and, remember. Again, not the tradeoff I would make.
 
