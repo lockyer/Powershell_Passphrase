@@ -22,7 +22,7 @@ words. I've observed that people usually re-roll when they encounter these issue
 experience, and slightly more secure to generate passwords people will actually use every time. This list uses the most
 popular words from [Google's Ngram List](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html) with the above exceptions, so they should be mostly familiar to english speakers.
 
-If you find offensive words in here I've missed, let me know. I do nothing to guarentee that you won't get an offensive phrase, as this would be much more complicated, and a bad implementation could greatly reduce the effective entropy of the phassphrases. Use your own discression.
+If you find offensive words in here I've missed, [open an issue](https://github.com/lockyer/Powershell_Passphrase/issues). I do nothing to guarentee that you won't get an offensive phrase, as this would be much more complicated, and a bad implementation could greatly reduce the effective entropy of the phassphrases. Use your own discression.
 
 ## Caveats
 This script is easily auditable, but auditing some of the underlying dependencies may be incredibly difficult. Dice still have the advantage of being dead simple. This script requires you to trust Microsoft's benevolence and competence. If you're running their operating system I assume this is something you've already made peace with!
