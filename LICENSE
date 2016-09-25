@@ -1,3 +1,13 @@
+This script is inspired by Diceware, but it uses a different word list, and may have other subtle differences.
+For more info see the offical diceware page: http://world.std.com/~reinhold/diceware.html
+Arnold G. Reinhold does not endorse this product
+
+The word list is derived from Google's Ngrams project: http://storage.googleapis.com/books/ngrams/books/datasetsv2.html
+It thus falls under Creative Commons Attribution 3.0 Unported License: https://creativecommons.org/licenses/by/3.0/
+Google does not endorse this product
+
+# All other content is covered under the MIT License:
+
 MIT License
 
 Copyright (c) 2016 Robert Lockyer
