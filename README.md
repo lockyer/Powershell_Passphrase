@@ -22,4 +22,4 @@ popular words from [Google's Ngram List](http://storage.googleapis.com/books/ngr
 If you find offensive words in here I've missed, let me know. I do nothing to guarentee that you won't get an offensive phrase, as this would be much more complicated, and a bad implementation could greatly reduce the effective entropy of the phassphrases. Use your own discression.
 
 ## Cavets
-This script is easily auditable, but [auditing some of the underlying dependencies](http://referencesource.microsoft.com/#mscorlib/system/security/cryptography/rngcryptoserviceprovider.cs,d525bf7d9ca1d38a) may require a deep knowledge of cryptography. Dice still have the advantage of being dead simple.
+This script is easily auditable, but auditing some of the underlying dependencies may be incredibly difficult. Dice still have the advantage of being dead simple. This script requires you to trust Microsoft to some extent.
