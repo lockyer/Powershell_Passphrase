@@ -1,5 +1,5 @@
 # Passphrase
-Generate Diceware inspired passphrases using powershell
+Generate Diceware inspired passphrases using Powershell
 
 Words in the original [Diceware](http://world.std.com/~reinhold/diceware.html) list have an average length of 4.2 characters, this list has an average of 4.8. The tradeoff is that this list contains only alphanumeric characters, and I've also removed common swear
 words. I've observed that people usually re-roll when they encounter these issues. I think it's a better user
