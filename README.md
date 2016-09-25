@@ -8,7 +8,7 @@ I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the tra
 * Rolling physical dice takes longer than I would like.
 * There is a suggested minimum character count of 17, but counting the characters every time is easy to forget.
 
-There are many free Diceware like tools and apps out there but I really want to be able to audit the source because:
+There are many free Diceware like tools and apps out there, but I really want to be able to audit the source because:
 * I'd like to verify that it's not doing anything malicious like making network connections
 * I'd like to verify it's not doing anything dumb like [exhibiting modulus bias](http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator)
 
