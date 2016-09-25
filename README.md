@@ -2,7 +2,7 @@
 Generate Diceware inspired passphrases using Powershell
 
 ## Motivation
-I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the traditional way for a while now but there are a couple things that have been bothering me about it:
+I've been using [Diceware](http://world.std.com/~reinhold/diceware.html) the traditional way for a while now, but there are a couple things that have been bothering me about it:
 * Many of the words are not alphanumeric. These are harder to type and remember. I believe this is done to shorten the average word length, but it's just not the tradeoff I'd make.
 * There are obvious swear words. I don't care about them for my personal use, but if you're using this to create temporary passwords to share with others it can make things awkward.
 * Rolling physical dice takes longer than I would like.
