@@ -14,7 +14,7 @@ There are many free Diceware like tools and apps out there, but I really want to
 
 Finally, I'd like it to run without having to install any dependencies on my machine.
 
-One Password has a Diceware like implementation, but I dislike it because it uses a larger word list which means more of the words fall outside my vocabulary. This increases the effective entropy for the same number of words, but makes them difficult to spell, type and, remember. Again, not the tradeoff I would make.
+In particular [1Password](https://1password.com/) has a Diceware like implementation, but I dislike it because it uses a larger word list which means more of the words fall outside my vocabulary. This increases the effective entropy for the same number of words, but makes them difficult to spell, type and, remember. Again, not the tradeoff I would make.
 
 ## Implementation
 Words in the original [Diceware](http://world.std.com/~reinhold/diceware.html) list have an average length of 4.2 characters, this list has an average of 4.8. The tradeoff is that this list contains only alphanumeric characters, and I've also removed common swear
